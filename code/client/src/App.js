@@ -49,7 +49,7 @@ function App() {
       />
       { fakeMatch.length > 0 ?
         (<Fragment><List data={fakeMatch}/>
-        <button className="send" onClick={generateScoreboard}>Send Score</button>
+        <button className="send" onClick={generateScoreboard}>Envoyer le score</button>
         </Fragment>)
         : ""
       }
