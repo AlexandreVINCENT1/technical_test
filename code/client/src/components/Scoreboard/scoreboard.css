@@ -1,0 +1,43 @@
+.scoreboard {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+
+.grid {
+    width: 40vw;
+    display: grid;
+    border: 1px solid lightgray;
+    direction: rtl;
+}
+
+.grid span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+.header {
+    width: 100%;
+    border-left: 1px solid lightgray;
+    grid-row: 1;
+    text-align: center;
+}
+
+.name {
+}
+
+.one {
+    grid-row: 2;
+}
+
+.two {
+    grid-row: 3;
+}
+

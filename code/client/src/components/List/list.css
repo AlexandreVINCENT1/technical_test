@@ -1,0 +1,13 @@
+.list {
+    width: 20vw;
+    min-width: 250px;
+    height: 25vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    height: 3vh;
+    width: 100%;
+}
